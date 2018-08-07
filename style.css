@@ -1,5 +1,6 @@
 body{
     font-family: 'Century Gothic', sans-serif;
+    background: #f6f6f6;
 }
 *{
     padding: 0;
@@ -10,6 +11,7 @@ li{
     list-style: none;
     display: flex;
 }
+
 a{
     text-decoration: none;
 }
@@ -17,6 +19,8 @@ a{
 header{
     background: #f6f6f6;
     padding: 30px 0;
+    margin-bottom: -10px;
+    width: 100%;   
 }
 .header-container{
     width: 90%;
@@ -24,6 +28,20 @@ header{
     display: flex;
     justify-content:  space-between;
 }
+
+.logo p{
+    padding-left: 163px;
+    font-size: 30px;
+}
+
+.move-header{
+    position: fixed;
+    top: 0;
+    background-color:#f6f6f6; 
+    width: 100%;
+    padding: 10px;
+}
+
 .header-container a{
     color: #000;
     font-size: 16px;
@@ -33,6 +51,7 @@ header{
 .header-container a:hover{
     background: #ffea00;
 }
+
 ul{
     display: flex; 
 }
@@ -40,11 +59,243 @@ ul{
     display: none;
 }
 
+.mini-logo{
+    display: none;
+}
+
 nav{
     margin-top:  20px;
 }
 
-@media screen and (max-width: 770px) {
+.top-slide{
+    background: url(Img/blur-map.jpg) no-repeat;
+    padding: 136px;
+    padding-bottom: 610px;
+    background-size: 100%;
+}    
+
+.top-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.top-slide h2{
+    background: #ffea00;
+    display: inline;
+    font-size: 70px;
+    padding: 0 13px;
+    border-radius:15px;
+}
+
+.top-slide:nth-child(1){
+    margin-top: 10px;
+}
+
+.top-slide p{
+    font-size: 24px;
+    background: #414146;
+    display: inline;
+    padding: 0px 5px;
+    color: #ffffff;
+}
+.specialize{
+    background: url(Img/fon2.jpg) no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding: 123px;
+}
+
+.specialize-container{
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 90px;
+    padding: 123px;
+
+}
+
+.specialize-container h3{
+    font-size: 35px;
+    background-color: #ffea00;
+    display: inline;
+    padding: 5px;
+    color: #414146;
+}
+
+.one-p{
+    font-size: 20px;
+}
+
+.other-p{
+    font-size: 13px;
+}
+
+.bottom-card{
+    background: #414146;
+    padding: 30px;
+    color: #ffffff;
+    max-width: 200px;
+    height: 50px;
+  
+}
+
+.topcard{
+        font-size: 20px; 
+        background: #ffea00;
+        padding: 25px;
+        height: 120px;
+        margin: 0 auto;
+}
+
+.topcard img{
+    height: 100px;
+}
+
+
+.specialize-cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+.coffee{
+    width: 250px;
+    height: auto;
+}
+
+.nakop-karta{
+    width: 250px;
+    height: auto;
+}
+.karta-top{
+    background: black;
+    color: #ffea00;
+}
+
+
+
+.secret{
+    width: 250px;
+    height: auto;
+}
+.secret-top{
+    background: #000;
+    color: #ffea00;
+}
+
+
+.portfolio{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.strings h4{
+    background: #424147;
+    display: inline;
+    color: #ffea00;
+    font-size: 24px;
+    padding: 0 13px;
+}
+
+.strings p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #424147;
+}
+
+
+
+
+    footer{
+    background: #414146;
+    padding: 30px 0;
+    color: #ffffff;
+}
+    .footer-container{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: auto auto auto;
+        display: grid;
+        justify-content: space-between;
+    }
+    .footer-container h4{
+        font-size: 18px;
+    }
+
+    .contacts p{
+        margin-top: 15px;
+
+    }
+
+
+@media screen and (max-width: 1550px){
+    
+    .logo{
+        display: none;
+    }
+    .mini-logo{
+        display: block;
+    }
+    .top-slide{
+        background: url(Img/blur-map.jpg) no-repeat;
+        padding: 209px;
+        background-size: 110%;
+        
+    }    
+
+    .top-slide h2{
+        width: 85%;        
+        font-size: 60px;
+    }
+
+    
+    .top-slide p{
+        width: 85%;        
+        font-size: 20px;
+    }
+    
+
+    .specialize{
+        background: url(Img/fon2.jpg) no-repeat;
+        background-size: 100%;
+        display: flex;
+        padding: 50px;
+        margin-bottom: 20px;
+    }
+        
+    .specialize-container{
+        width: 80%;
+        margin: 0 auto; 
+        text-align: center;
+    }
+
+    .portfolio{
+        
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    element.style {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        height: 700px;
+    }
+
+}
+
+.brend-slider{
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width: 715px) {
     .header-container{
         width: 100%;
         display: flex;
@@ -65,24 +316,10 @@ nav{
         padding: 8px;
     }
 
-    .toggle-button{
-        text-align:  center;
-        display: block;
-        cursor: pointer;
-        color: #000;
-        margin-top: 20px;
-        }
-
-        .toggle-button:after{
-            content: attr(data-open);
-            display: block;
-        }
+   
+      
         #menu-checkbox:checked + nav[role="navigation"] .main-menu{
             display: block;
-        }
-
-        #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{    
-            content: attr(data-close);        
         }
 
         .header-container a{
@@ -94,4 +331,52 @@ nav{
             top: 30px;
             right: 115px;
         }
+
+        .top-slide {
+            padding: 40px;
+            padding-bottom: 35px;
+        }
+        .top-slide h2{
+            font-size: 36px;
+            padding: 0 5px;
+        }
+
+        .top-slide p {
+            font-size: 16px;
+            background: #414146;
+            display: inline;
+            padding: 0px 5px;
+            color: #ffffff;
+        }
+
+        .specialize {
+            background: url(Img/fon2.jpg) no-repeat;
+            display: flex;
+            padding: inherit;
+        }
+
+        .specialize-container {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: -95px;
+            margin-left: -35px;
+        }
+
+        .specialize-container h3 {
+            font-size: 23px;
+        }
+        .up-write {
+            margin-top: 10px;
+            font-size: 16px;
+            margin-bottom: 35px;
+        }
+
+        .specialize-cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+ 
+      
 }

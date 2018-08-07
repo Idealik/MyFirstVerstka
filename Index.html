@@ -4,33 +4,163 @@
     <meta charset="utf-8" />
     <title>Web-disign</title>
     <link rel="stylesheet" type="text/css"  href="style.css" />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
   
 </head>
 <body>
-    <header>
-        <div class="header-container">
+    <header >
+        <div class="header-container" id="header">
             <div class="logo">
-                <img src="Img/LOGO.png" alt="logo">
+                <img src="Img/Logo2.jpg" alt="TRIADA-M" title="TRIADA-M">
+                <p><strong>Лучшее топливо по низким ценам.</strong></p>
             </div>
+
+            <div class="mini-logo">
+                <img src="Img/LOGO.png" alt="TRIADA-M" title="TRIADA-M">
+            </div>
+
             <input type="checkbox" id="menu-checkbox">
             <nav role="navigation">
                 <label for="menu-checkbox" class="toggle-button"
                  data-open="MENU" data-close="CLOSE" onclick></label>
                  <ul class="main-menu">
-                     <li><a href="#">HOME</a></li>
-                     <li><a href="#">PORTFOLIO</a></li>
-                     <li><a href="#">BLOG</a></li>
-                     <li><a href="#">ABOUT</a></li>
-                     <li><a href="#">CONTACT</a></li>
+                     <li><a href="#map">КАРТА</a></li>
+                     <li><a href="#shares">АКЦИИ</a></li>
+                     <li><a href="#">ПАРТНЕРАМ</a></li>
+                     <li><a href="#foot">О НАС</a></li>
+                     <li><a href="#foot">КОНТАКТЫ</a></li>
                  </ul>
             </nav>
         </div>
     </header>
 
-    <script src="script.js"></script>
+    <main>
+  
+    
+        <section class="specialize" id="shares">
+            <div class="specialize-container">
+                <h3>ПОЛЬЗУЙСЯ АКЦИЯМИ, ЧТОБЫ ЭКОНОМИТЬ:</h3>   
+
+            <div class="specialize-cards">
+                
+                    <div class="coffee">
+                        <div class="topcard">
+                            <img src="Img/Cofe.png" alt="">
+                            <p>ГОРЯЧИЙ КОФЕ</p>
+                        </div>
+                        <div class="bottom-card">
+                                <p class="other-p">Заправь машину<br> на 1500 рублей<br>Получи БЕСПЛАТНЫЙ кофе в подарок</p>
+                        </div>
+                    </div>
+              
+
+                  
+                        <div class="nakop-karta">
+                            <div class="topcard karta-top">
+                                <img src="Img/card3.png" alt="">                                
+                               <!-- <p>НАКОПИТЕЛЬНАЯ КАРТА</p> -->
+                               <p>В РАЗРАБОТКЕ</p>
+                            </div>
+                            <div class="bottom-card">
+                                    <p class="other-p">Не забывай взять с собой <br> КАРТУ. <br> Копи бонусы.</p>
+                            </div>
+                        </div>
+
+                     
+                            <div class="secret">
+                                <div class="topcard secret-top">
+                                    <img src="Img/card4.png" alt="">
+                                    <p>В РАЗРАБОТКЕ</p>
+                                </div>
+                                <div class="bottom-card">
+                                        <p class="other-p">Каждую неделю новые акции.</p>
+                                </div>
+                            </div>
+                        
+                    </div>
+            </div>
+        </section>
+
+        <section class="top-slide" id="map">
+            <div class="top-container">
+                    <div> <h2>РАССТОЯНИЕ - НИЧТО</h2></div>
+                    <div> <h2>НАША ЦЕНА И КАЧЕСТВО - ВСЁ</h2></div>
+                    <div>
+                        <p>Самые низкие цены</p>
+                    </div>
+                    <div>
+                        <p>Самый вкусный кофе</p>
+                    </div>
+                    <div>
+                        <p>Самое лучшее топливо</p>
+                    </div>
+            </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="strings">
+            <h4>Партнерская программа</h4>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed dsadasf a3ewqeqwerwetfg gfhdh</p>
+        </div>
+
+    </section>
+    
+    <section class="brend-slider">
+        <div class="strings">
+            <h4>НАШИ ПАРТНЕРЫ</h4>
+            <p>Мы уверены в этих компаниях и их товаре</p>
+        </div>
+        <div class="owl-carousel">
+            <div><img src="Img/Client 1.jpg" alt=""></div>
+            <div><img src="Img/Client 2.jpg" alt=""></div>
+            <div><img src="Img/Client 4.jpg" alt=""></div>
+            <div><img src="Img/Client 8.jpg" alt=""></div>
+            <div><img src="Img/Client 1.jpg" alt=""></div>
+            <div><img src="Img/Client 2.jpg" alt=""></div>
+            <div><img src="Img/Client 4.jpg" alt=""></div>
+            <div><img src="Img/Client 8.jpg" alt=""></div>
+            <div><img src="Img/Client 1.jpg" alt=""></div>
+            <div><img src="Img/Client 2.jpg" alt=""></div>
+            <div><img src="Img/Client 4.jpg" alt=""></div>
+            <div><img src="Img/Client 8.jpg" alt=""></div>
+        </div>
+
+
+
+    </section>
+    </main>
+    <footer>
+        <div class="footer-container" id="foot">
+            <div class="about-us">
+                <h4>About us</h4>
+                <p>
+                    text
+                </p>
+            </div>
+
+            <div class="tweets">
+                <h4>Latest twits</h4>
+                <p>twits</p>
+            </div>
+            
+            <div class="contacts">
+                <h4>Contacns</h4>
+                <p>Наш телефон: 89999999999</p>
+                <p>Наш адрес: где-то за титово  </p>
+                <p>Наш e-mail: shavl.mark@yandex.ru</p>
+            </div>
+
+        </div>
+    </footer>
+  
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+    </script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
